@@ -9,9 +9,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const dataRoutes = require("./routes/dataRoutes");
-app.use("/api", dataRoutes);
-
 // Connexion à MongoDB
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log("✅ MongoDB Connected"))
@@ -21,6 +18,11 @@ mongoose.connect(process.env.MONGO_URI)
 app.get("/", (req, res) => {
   res.send("Bienvenue sur l'API Buddl !");
 });
+
+//Routes prefix
+const dataRoutes = require("./routes/dataRoutes");
+app.use("/api", dataRoutes);
+
 
 // Démarrage du serveur
 const PORT = process.env.PORT || 5000;
