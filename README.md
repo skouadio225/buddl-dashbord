@@ -58,9 +58,6 @@ L'application est accessible sur **[http://localhost:5173](http://localhost:5173
 
 ## 📸 Capture d'écran
 ![Aperçu du tableau de bord](./Images/1.png)
-![Aperçu du tableau de bord](./Images/2.png)
-![Aperçu du tableau de bord](./Images/3.png)
-![Aperçu du tableau de bord](./Images/4.png)
 ![Aperçu du tableau de bord](./Images/5.png)
 
 ---
