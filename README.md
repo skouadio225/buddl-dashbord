@@ -83,7 +83,7 @@ Si tu utilises **MongoDB Atlas**, remplace `MONGO_URI` par ton URI MongoDB.
 
 ## 📂 Structure du projet
 ```
-buddl-project/
+buddl-dashboard/
 │── backend/              # Serveur Node.js avec Express
 │   ├── models/           # Modèles Mongoose pour MongoDB
 │   ├── routes/           # Routes API Express
