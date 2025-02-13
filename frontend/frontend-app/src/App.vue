@@ -24,7 +24,7 @@ const toggleDarkMode = () => {
   <div id="app">
     <img src="./assets/buddl.jpeg" alt="Buddl Logo" class="logo" />
     
-    <h1>📊 Tableau de bord Buddl</h1>
+    <h1>📊 Buddl Dashbord </h1>
 
     <button @click="toggleDarkMode">
       {{ isDarkMode ? "☀️ Mode Clair" : "🌙 Mode Sombre" }}
